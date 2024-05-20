@@ -1,0 +1,83 @@
+.card {
+  height: 548px; 
+  gap: 0px; 
+  opacity: 1; 
+  border-radius: 8px; 
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.14); 
+  margin-bottom: 20px;
+}
+
+.topBlogCard {
+    width: 100%;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.14);
+    border-radius: 8px;
+  }
+
+  .cardImgContainer {
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+    width: 100%; 
+    height: auto; 
+    gap: 0px; 
+  }
+
+.card_tags{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card_tags {
+    p{
+      font-size: 14px; 
+      color: #4D4D4D;
+      font-weight: 400;
+      margin: 0;
+      gap: 16px;
+      line-height: 21px;
+    }
+}
+.card_text{
+    font-size: 18px;
+    font-weight:500;
+    color: #1A1A1A;
+    line-height: 27px;
+    margin: 1rem 0;
+}
+.cardImg{
+   width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.card-body{
+  // width: 408px; 
+  height: 224px; 
+  gap: 20px; 
+  border-radius: 0px 8px ;
+    border: 1px solid #ffffff00;
+}
+.read_more{
+    font-size:16px;
+    line-height: 19.2px;
+    font-weight: 600;
+    color: #0D6CDB;
+    cursor: pointer;
+}
+
+
+// ------------------------- Responsive Css -------------------- //
+@media only screen and (max-width: 768px){
+.card_text{
+    font-size: 16px;
+    line-height: 20px;
+ margin-top: 20px;
+}
+
+.cardImg{
+   height: 150px;
+ }
+ .read_more{
+    font-size:14px;
+    line-height: 4.2px;
+}
+}

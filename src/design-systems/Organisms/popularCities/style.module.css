@@ -1,0 +1,17 @@
+.Popular_cities_wrp {
+  padding: 132px 0 80px;
+  background-image: url("../../../assets/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.Popular_cities_wrp .cities_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+@media (max-width: 992px) {
+  .Popular_cities_wrp .cities_list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}/*# sourceMappingURL=style.module.css.map */

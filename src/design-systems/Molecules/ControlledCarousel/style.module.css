@@ -1,0 +1,26 @@
+.carousel-control-next-icon {
+  background-image: none;
+}/*# sourceMappingURL=style.module.css.map */
+
+
+.carousel {
+  width: 100%;
+}
+
+.carouselItem {
+  position: relative;
+  width: 100%;
+  height: 100%; /* Ensure the item fills the container */
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carouselImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

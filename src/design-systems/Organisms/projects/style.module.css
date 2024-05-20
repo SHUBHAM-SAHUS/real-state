@@ -1,0 +1,44 @@
+.section_padding {
+  padding: 30px 0;
+}
+
+.project_demand_head {
+  padding: 50px 0;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project_head {
+  font-weight: 600;
+  color: #126BFB;
+  font-size: 32px;
+}
+
+.projects {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.searchPlacesHire {
+  color: #888888;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.projects_wrp .See_more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #126BFB;
+  margin-top: 32px;
+}/*# sourceMappingURL=style.module.css.map */

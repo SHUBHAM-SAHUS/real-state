@@ -1,0 +1,43 @@
+.agency_cards{
+    width: 100%;
+    padding: 24px;
+    border: 1px solid #DCDCDC;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.agency_card_heading{
+    font-weight: 600;
+    font-size: 24px;
+    color: 
+    #111111;
+    line-height: 36px;
+    
+}
+.agency_content{
+    color: #777777;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+// ---------------- Responsive Css ------------ //
+@media only screen and (max-width: 1024px){
+    .agency_img{
+        height: 70px;
+        width: 70px;
+    }
+
+    .agency_card_heading{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .agency_content{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .agency_cards{
+        padding: 15px;
+        border-radius: 14px;   
+    }
+}

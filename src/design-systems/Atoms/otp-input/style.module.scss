@@ -1,0 +1,48 @@
+@import '../../../assets/styles/variable.scss';
+.input_group {
+  margin-bottom: 22px;
+  .label {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.7px;
+  color: $Main-Text;
+    margin-bottom: unset;  
+  }
+  .otp-group {
+    display: flex;
+    width: 100%;
+    max-width: 397px;
+    gap: 12px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 12px auto;
+    .otp-input {
+      width: 54px;
+      height: 49px;
+      border: 1px solid $Stroke-Color;
+      border-radius: 6px;
+      padding: 0;
+      text-align: center;
+      font-size: 26px;
+      font-weight: bold;
+      background-color: $White;
+      color: $Main-Text;
+      &:focus,&:focus-visible,&:active{
+        border: 1px solid #0063F5;
+        outline: #0063F5;
+      }
+    }
+  }
+
+  .error {
+    font-family: Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.5px;
+    color: $Red-1;
+    margin-top: 4px;
+    margin-bottom: unset;
+    display: block;
+  }
+}

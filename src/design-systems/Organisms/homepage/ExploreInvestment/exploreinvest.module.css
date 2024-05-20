@@ -1,0 +1,33 @@
+.section_padding {
+  padding: 30px 0;
+}
+
+.exploreInvestmentArea {
+  background-image: url(../../../../assets/images/frame-48096361@3x.png);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 40px 0;
+}
+
+.investmentHeadings {
+  top: 124px;
+}
+
+.investmentHeadings h4 {
+  color: white;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 66px;
+}
+.investmentHeadings h6 {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 20px 10px;
+  line-height: 36px;
+}
+
+.see_project button {
+  padding: 12px 16px;
+}/*# sourceMappingURL=exploreinvest.module.css.map */

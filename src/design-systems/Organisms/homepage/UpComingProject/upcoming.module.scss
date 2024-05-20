@@ -1,0 +1,60 @@
+$primary-blue: var(--primary-blue1);
+$font-size-large: var(--font-size-lg);
+$sub-heading-color: var(--sub-heading);
+$gap-small: var(--gap-5xs);
+
+.section_padding{
+  padding: 30px 0;
+}
+
+.upcomingProjectsParent {
+  padding: 50px 0;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: $gap-small;
+}
+.upcoming{
+  font-weight: 600;
+    color: #126BFB;
+    font-size: 32px;
+}
+.projects{
+  font-size:32px;
+  font-weight: 600;
+}
+.searchPlacesHire{
+font-family: "poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #646464;
+    margin-bottom: unset;
+  }
+
+.frameWrapper {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  flex: 1;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 468px;
+  min-height: 384px;
+  max-width: 100%;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+}
+
+.button, .frameContainer {
+  display: flex;
+  flex-direction: column;
+}

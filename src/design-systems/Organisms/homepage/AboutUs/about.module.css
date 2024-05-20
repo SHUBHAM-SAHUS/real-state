@@ -1,0 +1,35 @@
+.about_us_container {
+  padding: 50px 0;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  font-weight: 600;
+  color: #126bfb;
+}
+
+.us {
+  font-weight: 600;
+  color: #126bfb;
+}
+
+.searchPlacesHire {
+  color: #888888;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.imageWrapper {
+  position: relative;
+  width: calc(50% - 10px); /* Adjust the width to fit two images side by side with a small gap */
+  height: 400px; /* Adjust

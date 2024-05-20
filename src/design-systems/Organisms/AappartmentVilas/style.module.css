@@ -1,0 +1,20 @@
+.section_wrp {
+  padding: 20px 0;
+}
+.section_wrp .project_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.section_wrp .See_more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #126BFB;
+  margin-top: 32px;
+}/*# sourceMappingURL=style.module.css.map */

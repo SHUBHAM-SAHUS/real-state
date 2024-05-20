@@ -1,0 +1,66 @@
+.section_padding {
+  margin-top: 40px;
+}
+
+.subscribe_head {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.subscribeArea {
+  width: 100%;
+  background-color: #ECF8FF;
+  text-align: center;
+  padding: 60px;
+}
+
+.subscribe_subhead {
+  color: #888888;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.email_card {
+  width: 602px;
+  height: 204px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid #E3E3E3;
+  text-align: left;
+}
+
+.subscribe_btn_container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.subscribe_btn {
+  background-color: #126BFB;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.email_input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #E3E3E3;
+  border-radius: 4px;
+  gap: 8px;
+}
+
+.email_head {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #383838;
+}/*# sourceMappingURL=style.module.css.map */

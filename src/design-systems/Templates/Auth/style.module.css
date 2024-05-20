@@ -1,0 +1,95 @@
+.button_group {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 64px;
+}
+
+.login_form {
+  padding: 32px 0 24px;
+}
+
+.login_with_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.1px;
+  text-align: left;
+  color: #1A1A1A;
+}
+.login_with_title hr {
+  display: inline-block;
+  background-color: #EBEBEB;
+  height: 1px;
+  width: 31%;
+}
+
+.login_with_option_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.create_account_wrp .signup_form {
+  padding: 32px 0 0;
+}
+.create_account_wrp .note {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.1px;
+  color: #6E6E6E;
+  margin-top: 4px;
+}
+.create_account_wrp .note a {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.1px;
+  color: #126BFB;
+}
+.create_account_wrp .Checkbox_wrp {
+  margin-top: 32px;
+}
+.create_account_wrp .Checkbox_wrp .error {
+  font-family: "Helvetica";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 11.5px;
+  color: #AA0000;
+  margin-top: 4px;
+  display: block;
+}
+
+.verify_otp_wrp .verify_otp_form {
+  padding-top: 32px;
+}
+.verify_otp_wrp .not_recived_yet {
+  font-family: "Helvetica";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.4px;
+  color: #6E6E6E;
+}
+.verify_otp_wrp .not_recived_yet button {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.4px;
+  color: #126BFB;
+}
+
+.disabled-style {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+.disabled-style input, .disabled-style button {
+  background-color: #ccc;
+  color: #666;
+}/*# sourceMappingURL=style.module.css.map */

@@ -1,0 +1,52 @@
+.input_group {
+  margin-bottom: 22px;
+}
+.input_group .label {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #383838;
+  margin-bottom: 4px;
+}
+.input_group input {
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.0509803922);
+  border: 1px solid #d0d5dd;
+  font-family: "Helvetica";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1A1A1A;
+  box-shadow: unset !important;
+}
+.input_group input::-moz-placeholder {
+  color: #BABABA;
+  font-family: "Helvetica";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.input_group input::placeholder {
+  color: #BABABA;
+  font-family: "Helvetica";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.input_group input.error_input {
+  border: 1px solid #AA0000;
+}
+.input_group input:focus {
+  box-shadow: unset;
+  border-color: #d0d5dd;
+}
+.input_group .error {
+  font-family: Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 11.5px;
+  color: #AA0000;
+  margin-top: 4px;
+  margin-bottom: unset;
+  display: block;
+}/*# sourceMappingURL=style.module.css.map */

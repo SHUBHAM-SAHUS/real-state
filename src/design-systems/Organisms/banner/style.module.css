@@ -1,0 +1,102 @@
+.banner_wrp {
+  position: relative;
+}
+.banner_wrp .search_box_wrp {
+  position: absolute;
+  bottom: -70px;
+  width: 100%;
+}
+.banner_wrp .search_box_wrp .search_box {
+  box-shadow: 8px 8px 15px 0px rgba(171, 171, 171, 0.2509803922);
+  background-color: #FFFFFF;
+  max-width: 993px;
+  margin: auto;
+  border-radius: 8px;
+  padding: 18px 24px 0 24px;
+  position: relative;
+  z-index: 1;
+}
+.banner_wrp .search_box_wrp .search_box .searchbox_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_wrp .search_box_wrp .search_box .searchbox_content .select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #111111;
+  min-width: 199px;
+  border-right: 0.5px solid #EBEBEB;
+  padding: 12px 24px 12px 24px;
+  height: 72px;
+}
+.banner_wrp .search_box_wrp .search_box .searchbox_content .form_wrp {
+  padding: 12px 24px 12px 24px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.banner_wrp .search_box_wrp .search_box .searchbox_content .form_wrp img {
+  margin-right: 8px;
+}
+.banner_wrp .search_box_wrp .search_box .searchbox_content .form_wrp img.rotate {
+  transform: rotate(180deg);
+}
+.banner_wrp .search_box_wrp .search_box .searchbox_content .form_wrp input {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #111111;
+  border: unset;
+  box-shadow: unset;
+  padding: unset;
+}
+.banner_wrp .search_box_wrp .search_box .searchbox_content .form_wrp input::-moz-placeholder {
+  color: #BABABA;
+}
+.banner_wrp .search_box_wrp .search_box .searchbox_content .form_wrp input::placeholder {
+  color: #BABABA;
+}
+.banner_wrp .search_box_wrp .search_box .searchbox_content .form_wrp button.search_btn {
+  width: 150px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+.banner_wrp .search_box_wrp .filter_wrp {
+  padding: 32px;
+  box-shadow: 8px 8px 15px 0px rgba(171, 171, 171, 0.2509803922);
+  background-color: #FFFFFF;
+  max-width: 933px;
+  margin: -24px auto auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-radius: 24px;
+}
+.banner_wrp .search_box_wrp .filter_wrp .filter_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+@media screen and (max-width: 992px) {
+  .banner_wrp .filter_wrp {
+    padding: 32px;
+    max-width: 700px;
+    margin: -24px auto auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-radius: 24px;
+  }
+}/*# sourceMappingURL=style.module.css.map */
